@@ -224,6 +224,14 @@ function getRectangleString(width, height) {
  *
  */
 function encodeToRot13(/* str */) {
+  // const arr = str.split('');
+  // const resArr = [];
+  // for (let i = 0; i < arr.length; i += 1) {
+  //   if (arr[i].codePointAt(0) < 78) {
+  //     resArr.push(arr[i].fromCodePoint + 13);
+  //   }
+  // }
+  // return resArr;
   throw new Error('Not implemented');
 }
 
